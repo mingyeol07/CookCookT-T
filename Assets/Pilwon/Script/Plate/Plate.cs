@@ -36,19 +36,6 @@ public class Plate : MonoBehaviour
 
     private void Update()
     {
-        if (materialData.materialName == FoodManager.instance.currentMaterial.materialName)
-        {
-            print("실행 : 0");
-            sprite.color = new Color(255, 255, 255, 255);
-        }
-
-        else if (materialData.materialName != FoodManager.instance.currentMaterial.materialName)
-        {
-            print("실행 : 1");
-            plateSprite.color = new Color32(63, 82, 154, 255);
-            //sprite.color = new Color32(137, 90, 90, 255);
-        }
-
         Move();
     }
 

@@ -18,11 +18,12 @@ public class Recipe : MonoBehaviour
     {
         if (instance == null) instance = this;
         else Destroy(gameObject);
+
     }
 
     private void Start()
     {
-        RecipeInit();
+        Recipe.instance.RecipeInit();
     }
 
     public void RecipeInit()
@@ -35,8 +36,11 @@ public class Recipe : MonoBehaviour
         if (instance.materialIndex + 1 < instance.currentFood.foodMaterial.Length)
         {
             nextMaterial.sprite = instance.currentFood.
-                foodMaterial[instance.materialIndex + 1].materialSprite;
+            foodMaterial[instance.materialIndex + 1].materialSprite;
         }
-        else nextMaterial.sprite = endMaterial.sprite;
+        else
+        {
+            nextMaterial.sprite = endMaterial.sprite;
+        }
     }
 }

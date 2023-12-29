@@ -128,6 +128,7 @@ public class GameManager : MonoBehaviour
 
             FoodManager.instance.materialIndex = 0;
             FoodManager.instance.MaterialInit();
+            Recipe.instance.RecipeInit();
         }
         else
         {

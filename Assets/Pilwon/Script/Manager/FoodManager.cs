@@ -84,7 +84,6 @@ public class FoodManager : MonoBehaviour
             
             currentFoodCount = maxFoodCount;
         }
-        Recipe.instance.RecipeInit();
     }
 
     // 다음 재료 설정
