@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Food
+  - MainPlate
+  - Plate
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Road
+    uniqueID: 2489508823
+    locked: 0
+  - name: Plate
+    uniqueID: 2456103335
+    locked: 0
+  - name: Material
+    uniqueID: 1918761787
+    locked: 0
+  - name: Canvas
+    uniqueID: 3739379203
+    locked: 0
+  - name: Player
+    uniqueID: 3762383985
+    locked: 0
